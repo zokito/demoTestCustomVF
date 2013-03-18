@@ -1,0 +1,205 @@
+d .
+d ./accountSharingRules
+f ./accountSharingRules/Account.sharingRules
+d ./applications
+f ./applications/EDA.app
+d ./campaignSharingRules
+f ./campaignSharingRules/Campaign.sharingRules
+d ./caseSharingRules
+f ./caseSharingRules/Case.sharingRules
+d ./classes
+f ./classes/myController.cls
+f ./classes/myController.cls-meta.xml
+d ./components
+f ./components/editMode.component
+f ./components/editMode.component-meta.xml
+d ./contactSharingRules
+f ./contactSharingRules/Contact.sharingRules
+d ./customApplicationComponents
+d ./datacategorygroups
+f ./delete_file_list.txt
+d ./documents
+d ./documents/EDA
+f ./documents/EDA/statement_csv.txt
+f ./documents/EDA/statement_csv.txt-meta.xml
+f ./documents/EDA/statement_mt940.txt
+f ./documents/EDA/statement_mt940.txt-meta.xml
+f ./documents/EDA-meta.xml
+d ./email
+d ./email/unfiled$public
+d ./flows
+d ./groups
+d ./homePageComponents
+d ./homePageLayouts
+f ./homePageLayouts/DE Default.homePageLayout
+d ./labels
+f ./labels/CustomLabels.labels
+d ./layouts
+f ./layouts/Account-Account %28Marketing%29 Layout.layout
+f ./layouts/Account-Account %28Sales%29 Layout.layout
+f ./layouts/Account-Account %28Support%29 Layout.layout
+f ./layouts/Account-Account Layout.layout
+f ./layouts/Asset-Asset Layout.layout
+f ./layouts/Campaign-Campaign Layout.layout
+f ./layouts/CampaignMember-Campaign Member Page Layout.layout
+f ./layouts/Case-Case %28Marketing%29 Layout.layout
+f ./layouts/Case-Case %28Sales%29 Layout.layout
+f ./layouts/Case-Case %28Support%29 Layout.layout
+f ./layouts/Case-Case Layout.layout
+f ./layouts/Case-xcdyv.layout
+f ./layouts/CaseClose-Close Case Layout.layout
+f ./layouts/Contact-Contact %28Marketing%29 Layout.layout
+f ./layouts/Contact-Contact %28Sales%29 Layout.layout
+f ./layouts/Contact-Contact %28Support%29 Layout.layout
+f ./layouts/Contact-Contact Layout.layout
+f ./layouts/Contract-Contract Layout.layout
+f ./layouts/Event-Event Layout.layout
+f ./layouts/Flow__c-Flow Layout.layout
+f ./layouts/Idea-Idea Layout.layout
+f ./layouts/Lead-Lead %28Marketing%29 Layout.layout
+f ./layouts/Lead-Lead %28Sales%29 Layout.layout
+f ./layouts/Lead-Lead %28Support%29 Layout.layout
+f ./layouts/Lead-Lead Layout.layout
+f ./layouts/Opportunity-Opportunity %28Marketing%29 Layout.layout
+f ./layouts/Opportunity-Opportunity %28Sales%29 Layout.layout
+f ./layouts/Opportunity-Opportunity %28Support%29 Layout.layout
+f ./layouts/Opportunity-Opportunity Layout.layout
+f ./layouts/OpportunityLineItem-Opportunity Product Layout.layout
+f ./layouts/Process__c-Process Layout.layout
+f ./layouts/Product2-Product Layout.layout
+f ./layouts/SocialPersona-Social Persona Layout.layout
+f ./layouts/Solution-Solution Layout.layout
+f ./layouts/StatementLine__c-Bank Statement Line Layout.layout
+f ./layouts/Step__c-Chain Line Layout.layout
+f ./layouts/Task-Task Layout.layout
+f ./layouts/User-User Layout.layout
+d ./leadSharingRules
+f ./leadSharingRules/Lead.sharingRules
+d ./letterhead
+d ./objects
+f ./objects/Account.object
+f ./objects/AccountContactRole.object
+f ./objects/Activity.object
+f ./objects/Asset.object
+f ./objects/Campaign.object
+f ./objects/CampaignMember.object
+f ./objects/Case.object
+f ./objects/CaseContactRole.object
+f ./objects/Contact.object
+f ./objects/ContentVersion.object
+f ./objects/Contract.object
+f ./objects/ContractContactRole.object
+f ./objects/Event.object
+f ./objects/Flow__c.object
+f ./objects/Lead.object
+f ./objects/Opportunity.object
+f ./objects/OpportunityCompetitor.object
+f ./objects/OpportunityContactRole.object
+f ./objects/OpportunityLineItem.object
+f ./objects/PartnerRole.object
+f ./objects/Process__c.object
+f ./objects/Product2.object
+f ./objects/Site.object
+f ./objects/SocialPersona.object
+f ./objects/Solution.object
+f ./objects/StatementLine__c.object
+f ./objects/Step__c.object
+f ./objects/Task.object
+f ./objects/User.object
+d ./objectTranslations
+f ./objectTranslations/Flow__c-en_US.objectTranslation
+f ./objectTranslations/Process__c-en_US.objectTranslation
+f ./objectTranslations/StatementLine__c-en_US.objectTranslation
+f ./objectTranslations/Step__c-en_US.objectTranslation
+d ./opportunitySharingRules
+f ./opportunitySharingRules/Opportunity.sharingRules
+d ./orgsettings
+f ./package.xml
+d ./pages
+f ./pages/setEmps.page
+f ./pages/setEmps.page-meta.xml
+d ./permissionsets
+d ./profiles
+f ./profiles/Admin.profile
+f ./profiles/Chatter External User.profile
+f ./profiles/Chatter Free User.profile
+f ./profiles/Chatter Moderator User.profile
+f ./profiles/ContractManager.profile
+f ./profiles/Custom%3A Marketing Profile.profile
+f ./profiles/Custom%3A Sales Profile.profile
+f ./profiles/Custom%3A Support Profile.profile
+f ./profiles/Customer Portal Manager Custom.profile
+f ./profiles/Customer Portal Manager Standard.profile
+f ./profiles/Force%2Ecom - Free User.profile
+f ./profiles/Gold Partner User.profile
+f ./profiles/HighVolumePortal.profile
+f ./profiles/MarketingProfile.profile
+f ./profiles/PlatformPortal.profile
+f ./profiles/ReadOnly.profile
+f ./profiles/Silver Partner User.profile
+f ./profiles/SolutionManager.profile
+f ./profiles/Standard.profile
+f ./profiles/StandardAul.profile
+d ./queues
+d ./remoteSiteSettings
+f ./remoteSiteSettings/ApexDevNet.remoteSite
+d ./reports
+d ./reportTypes
+d ./roles
+f ./roles/CEO.role
+f ./roles/CFO.role
+f ./roles/ChannelSalesTeam.role
+f ./roles/COO.role
+f ./roles/CustomerSupportInternational.role
+f ./roles/CustomerSupportNorthAmerica.role
+f ./roles/DirectorChannelSales.role
+f ./roles/DirectorDirectSales.role
+f ./roles/EasternSalesTeam.role
+f ./roles/InstallationRepairServices.role
+f ./roles/MarketingTeam.role
+f ./roles/SVPCustomerServiceSupport.role
+f ./roles/SVPHumanResources.role
+f ./roles/SVPSalesMarketing.role
+f ./roles/VPInternationalSales.role
+f ./roles/VPMarketing.role
+f ./roles/VPNorthAmericanSales.role
+f ./roles/WesternSalesTeam.role
+d ./scontrols
+d ./sites
+d ./staticresources
+f ./staticresources/DynaTree.resource
+f ./staticresources/DynaTree.resource-meta.xml
+d ./tabs
+f ./tabs/Flow__c.tab
+f ./tabs/Injector.tab
+f ./tabs/Process__c.tab
+f ./tabs/Setup.tab
+f ./tabs/StatementLine__c.tab
+f ./test_subset_md_package.xml
+d ./triggers
+d ./weblinks
+f ./weblinks/PostInstall.weblink
+d ./workflows
+f ./workflows/Account.workflow
+f ./workflows/Asset.workflow
+f ./workflows/Campaign.workflow
+f ./workflows/CampaignMember.workflow
+f ./workflows/Case.workflow
+f ./workflows/Contact.workflow
+f ./workflows/Contract.workflow
+f ./workflows/Event.workflow
+f ./workflows/Flow__c.workflow
+f ./workflows/Idea.workflow
+f ./workflows/Lead.workflow
+f ./workflows/Opportunity.workflow
+f ./workflows/OpportunityLineItem.workflow
+f ./workflows/Organization.workflow
+f ./workflows/Process__c.workflow
+f ./workflows/Product2.workflow
+f ./workflows/Site.workflow
+f ./workflows/SocialPersona.workflow
+f ./workflows/Solution.workflow
+f ./workflows/StatementLine__c.workflow
+f ./workflows/Step__c.workflow
+f ./workflows/Task.workflow
+f ./workflows/UserLicense.workflow
