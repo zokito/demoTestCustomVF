@@ -1,5 +1,5 @@
 <!--suppress AntResolveInspection -->
-<project name="Sample usage of Salesforce Ant tasks"
+<project name="CloudSense migration script"
 		 default="deployToSalesforce"
 		 basedir="."
          xmlns:sf="antlib:com.salesforce">
@@ -21,8 +21,14 @@
 
     <!-- Test out deploy and retrieve verbs for package 'mypkg' -->
     <target name="deployToSalesforce">
+        <copy includeemptydirs="true" todir="${sf.deploy.root}">
+            <fileset includesfile="${sf.deploy.src}"></fileset>
+        </copy>
+        <copy>
+
+        </copy>
         <delete casesensitive="true" dir="${sf.deploy.root}" verbose="${sf.deploy.verbose}"  includeemptydirs="true">
-             <fileset excludes=""
+             <fileset excludesfile="${sf.deploy.excludefiles}"></fileset>
         </delete>
         <sf:deploy username="${sf.deploy.username}" password="${sf.deploy.password}" serverurl="${sf.deploy.serverurl}" deployRoot="${sf.deploy.root}"/>
     </target>

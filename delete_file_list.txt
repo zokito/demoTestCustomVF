@@ -1,378 +1,205 @@
-f ./.git/config
-f ./.git/description
-f ./.git/HEAD
-f ./.git/hooks/applypatch-msg.sample
-f ./.git/hooks/commit-msg.sample
-f ./.git/hooks/post-commit.sample
-f ./.git/hooks/post-receive.sample
-f ./.git/hooks/post-update.sample
-f ./.git/hooks/pre-applypatch.sample
-f ./.git/hooks/pre-commit.sample
-f ./.git/hooks/pre-rebase.sample
-f ./.git/hooks/prepare-commit-msg.sample
-f ./.git/hooks/update.sample
-f ./.git/index
-f ./.git/info/exclude
-f ./.git/logs/HEAD
-f ./.git/logs/refs/heads/master
-f ./.git/objects/00/1ebaebaf99eaee51650bcfb4bef912dbaf0e67
-f ./.git/objects/05/d9acf52ad227ced4e510f5b896c098b9116aa9
-f ./.git/objects/06/e8d43dd7978f6c7958fcec70a3dee201539cf7
-f ./.git/objects/08/39fa39fb6752f1b7d15efd4da7e25def228e82
-f ./.git/objects/0b/85576426e1f1361e27349c5ee1c37fb2d2650e
-f ./.git/objects/0c/ef31c05abd5bce13fab17dd480571cc408fbb7
-f ./.git/objects/0d/d64215b60655edd2a6bfb9ff28502021369b32
-f ./.git/objects/0e/454cf4f93c92345259571471e4ea6858dd4c04
-f ./.git/objects/0f/3f98195c959996fc51e2e12b4fba89b85ddf19
-f ./.git/objects/14/75dab65851bd444a71054a09b72bcd153c7b5b
-f ./.git/objects/16/8ec007a42680d37668fb80fe83d0cd1558c990
-f ./.git/objects/17/889c325c0fc5e953d66eb29c5bc67c8091a910
-f ./.git/objects/17/f82a36f73c544863fb7d0b44d828150725f132
-f ./.git/objects/18/bfa53eb9cbaa9024f5f4692cc11214206e4bc3
-f ./.git/objects/1b/81205a5d594b707c7d7b0f2032fc8ee1c5649b
-f ./.git/objects/1e/5b39cd787045449a699602b65526cd27a13660
-f ./.git/objects/1f/340158152c5a71f01bb6847730bcd09ce29781
-f ./.git/objects/1f/35a2363ab17810ee7fde5c6c8efa7639178a83
-f ./.git/objects/1f/c0db7dc32bb510e7faf9606248d946607771c6
-f ./.git/objects/20/23f1db6fafa88db2e4d41fa0d2c35bb38172cf
-f ./.git/objects/22/04eca21a96a13492e74d6623cd8af7f2e3436c
-f ./.git/objects/22/441210bf3c0fde34f309c93ec75a61f4105780
-f ./.git/objects/23/557aa3717a0befce55e5729513fd1b299bd399
-f ./.git/objects/24/2fa61f86ca6b6573fc63760c241cf7af086486
-f ./.git/objects/25/6a3da75a98738ae3ca316d3f31d9b3b8bc6836
-f ./.git/objects/25/877e8ccf25ec79c2f781b3fc67cbfc300f73fd
-f ./.git/objects/28/d333c4e20eaa4d3a93e35bac433f72bd23fdd4
-f ./.git/objects/29/7c2c95497eaede3f194f7d3925298233370e49
-f ./.git/objects/2a/552c741b412fe7c163c6d2015779b9a0b8c5a6
-f ./.git/objects/2a/77fa6e037f079b1cc4b282d4945e37b702e98d
-f ./.git/objects/2c/44dc35083db258fa6f6076ec65be89a8bc8d76
-f ./.git/objects/31/91ef8e0e39864d02b32979438153da568ba2ab
-f ./.git/objects/32/5bb29a6be16c08b15b21e7b92e25b9e6b45dd2
-f ./.git/objects/32/f52e0cc37a05ef0f0e8b0bb75948fb6bb5d2a0
-f ./.git/objects/33/2115d068db971af37a5462661f0bc55cc71d2e
-f ./.git/objects/33/53f6045325fb62582085653b44431dffc3cd8c
-f ./.git/objects/34/eb9141ddb4c9a705761b94835bb10ac27d0ea8
-f ./.git/objects/34/fc620292aeb7eff04d42f1e7607decfeb42abd
-f ./.git/objects/35/45140c371d48c5d62a18fba76a6d12b362d73b
-f ./.git/objects/35/5771c31960310cb958ec63615187cdc99500dc
-f ./.git/objects/35/fb89eff71a0441f90d16cb7ab62659ed978795
-f ./.git/objects/36/229d4e84141bc283ba1dd6ea2278706713f988
-f ./.git/objects/36/98bc50ecbab562d6231df9a87e859844c8dbd4
-f ./.git/objects/37/13a42e5c7b587b4a873aaa81f7024221c66c03
-f ./.git/objects/37/6776a095d478d2d24cf4f4ea24104164b59a5e
-f ./.git/objects/39/3a22541a3a7e44ad83b8d8b177a9229a1665f8
-f ./.git/objects/39/7900e1e4c3b6f4f92d3173526cdd496663868c
-f ./.git/objects/3a/1b8e78efd0a1000a908f74bfd5434ec65a257f
-f ./.git/objects/3c/1ab483ad99b693dd2f4a15f3363e05ba52a1b1
-f ./.git/objects/3e/61ee0a347d7502c1993e7656c9d560db06eb36
-f ./.git/objects/3e/d63d7943b354cb20dce429b7ffe03fbddcda23
-f ./.git/objects/41/966d8398039cac9071a0a1518febd5b6b048f7
-f ./.git/objects/43/3cddb4cdfed128a51bad35b7fde6e34af083bd
-f ./.git/objects/44/6e1c6a18002526a39003078508d8d8e79c0eac
-f ./.git/objects/44/9bbf57a964288d51301b7fdc15aae6a6c840b1
-f ./.git/objects/45/848d75ad8ba3078716d81e9b2f531d602bb361
-f ./.git/objects/47/763cd43f76ac8273a6e7fd5a06904642e36e23
-f ./.git/objects/4a/8da381ad754f4d10fdfc1989b705bd902baa7b
-f ./.git/objects/4b/43e2b7c299cf938c5f727947622289820e6ac7
-f ./.git/objects/4b/825dc642cb6eb9a060e54bf8d69288fbee4904
-f ./.git/objects/51/d851247752a4cf756118573e88c71e8af6ecca
-f ./.git/objects/53/e60e33e2c2d3b91910846d7861adb18d0dca7b
-f ./.git/objects/53/fee750dcfbfafb91696ca43b62c1d95e66e321
-f ./.git/objects/55/d780eb1d2a7beaa22fd1adc1ea1fe37d3cb52f
-f ./.git/objects/59/85aa59dcb6d8f3fe3d2876bea15d9a286299f4
-f ./.git/objects/5a/25bcecefb996e629b8c04a288f5fc2e1df08ed
-f ./.git/objects/5a/39994f8236786fa0ff4c250ac714ab8dac86f2
-f ./.git/objects/5a/c1433e6d2e02b025f71b5e3cdfaced0bf3a32d
-f ./.git/objects/5b/aeccbc6fd0e6f6f773f991ccd501a845e79dd7
-f ./.git/objects/5d/9c7b45178baa68017baefe0884a9d9300b83a6
-f ./.git/objects/60/090da2dcf9e66c2075fd741427c7fe1ceccefd
-f ./.git/objects/63/5f225c554c9fa4bce4ae97ff7658b86a6837f3
-f ./.git/objects/65/997eeb6211ecddd6631087973d8c65fad3700a
-f ./.git/objects/67/bb76e7bbdaae80fc7d4a729ad6cfb294557527
-f ./.git/objects/68/665980bc89c828b97ea12c82de8a278170f676
-f ./.git/objects/69/bc90b1e83003507ff6f37235dcee6a1a1fb049
-f ./.git/objects/6b/6d52856e0a12c1f67677cc996592523899516f
-f ./.git/objects/6c/0edc6732e936976dea83a11017456168444b52
-f ./.git/objects/6d/40f9c0597447ea31fd610defd4fff629af4dcb
-f ./.git/objects/6d/dd1eb1fc9c436ae921e92dccb2b6304f1a8730
-f ./.git/objects/6e/24436296e4a1ad8c78704f1b58a691b23615a5
-f ./.git/objects/6e/c30675000987e7b535cf91376e9847fc159ede
-f ./.git/objects/6e/d27e9a4403d13a94f17362d135ad6a1de51006
-f ./.git/objects/72/80a0d1518d25a2eb4369a566ee230c63cf4a4f
-f ./.git/objects/73/eab57000e8312d5423e591be28c2beab5dd610
-f ./.git/objects/77/024bc9c49888605f8a2499d2d63d66d0714601
-f ./.git/objects/79/9a7b6b6e05b9191763a4b68b0cb302039fdeb2
-f ./.git/objects/7a/a8892c6d8aac4ad4e3b2e0a04203d740a0fa82
-f ./.git/objects/7a/a9355307abe9f572f39785761e787e533ac8eb
-f ./.git/objects/7a/b924d8956a1e8d2f3c12cbd6f9d556b8aa965e
-f ./.git/objects/7c/467e17ebebc07038fbd0392cde8124143886d4
-f ./.git/objects/7e/61ac916c24d6f994b35fef5b6c90de9a430ba3
-f ./.git/objects/7e/fa7d2c75bd3d66089da12ebc144dc986e1cc5c
-f ./.git/objects/7f/1f70bc96165f0ab7f71786885beb7ae3065544
-f ./.git/objects/7f/73d5c01ba1115245ee6e582eb7e00e3b15324f
-f ./.git/objects/81/9d7a96e4a8af83be2a4345080a09b3ba89a744
-f ./.git/objects/83/1cab12495a9eec133bfd07f4f1c82d0318a092
-f ./.git/objects/87/9ee6f0786397d5f274e9b9d80b7b5c505b51ca
-f ./.git/objects/87/dbabbbb6fd0edb452fe0cfa726fc4a137c1c92
-f ./.git/objects/88/a042f9fe429fa0daf60d57d04134c545d922ae
-f ./.git/objects/89/8fdabd0d74254a50b05dc86cdbfe456fa94b5b
-f ./.git/objects/89/a2dc37bd9f41ea01e42e803d14ee856661dbaa
-f ./.git/objects/89/a7e0f8988862feb36a2055a33ae57e1f02a437
-f ./.git/objects/8f/14fa045fab687460f4c5059a7574390d5ab089
-f ./.git/objects/91/b2c021a0b1339d09508f30fd517b0762da2094
-f ./.git/objects/92/a2772bf901c0b8b059a7e3915f7b3b6769ee41
-f ./.git/objects/92/c0395ac0dd8373dc4dcaa0454b52975086419d
-f ./.git/objects/93/000e766dd4ff40cac95d071a87a668e711663c
-f ./.git/objects/94/6eb3001414d3363d46e747e0d41b6d14531e8c
-f ./.git/objects/95/6184d23b7c859b376bc0ef85436ccd58fc1a87
-f ./.git/objects/96/ea1e7694cece019f0e9c04cb33940c21bb3815
-f ./.git/objects/98/06c6746e4ec7fd87f44b358ab54f6560fc4693
-f ./.git/objects/99/75006f1fe15417c3acb8404d1137b64ace7a15
-f ./.git/objects/9d/78f073955e3327a69d3030b1fb94bab59dc0a9
-f ./.git/objects/a0/dc0d590b948b6115e928e3a70fc544a0d1109b
-f ./.git/objects/a4/5bc994d438a624b1dddf738bb88bd2845d4a41
-f ./.git/objects/a5/1060b24f927b04a311159de6aeada4af39850a
-f ./.git/objects/a6/51eb10ca566ba3133b7005387d96b340cb65db
-f ./.git/objects/a6/ffa23413b8a410f1e85054cfcb23073d412e71
-f ./.git/objects/a7/7cf26ef137a3a5da4ecbcde24f72ae0a43c16e
-f ./.git/objects/a8/3c814987cb53cb452603e2b01f35d6c0046ff5
-f ./.git/objects/aa/3f29813573eaa74a99328024cec4ff84d7c1d3
-f ./.git/objects/ac/c9173676d238a5bab6b1cf856bca274dcab952
-f ./.git/objects/ad/46717207bd9a863e9884782c78c11a54e7cf71
-f ./.git/objects/ae/2b72ba568ce60a599e3b874ac1f42af7e8a838
-f ./.git/objects/ae/98d7feb34217b5174a0906135e53a0e51a6e7a
-f ./.git/objects/af/bb8431950172486bfafd629a6ed3ee8eea1a62
-f ./.git/objects/af/c70dadb7945e70eb15d361b404752f94746e04
-f ./.git/objects/b2/8936eca45651cfaa99baf6f0fe16547f89e1d0
-f ./.git/objects/b3/48c6c120f8222dd4db06c6683efea793dd3a09
-f ./.git/objects/b4/b9b85486ae0362058a97654b8a065e5d9b05c6
-f ./.git/objects/b6/5f704a6ada4be0344fadc780fb44b18cb6facb
-f ./.git/objects/b7/1131870313e30ffbdfce38902b75500d24e370
-f ./.git/objects/b9/1a226527f38d37321e38cc370602ffef9de75b
-f ./.git/objects/bc/3eb2d5901ebe034f5459eaef66eddef92d70ba
-f ./.git/objects/bf/0051d91294a5e99c1d08044250c91079a8072a
-f ./.git/objects/c0/8e6a11df24d9617c23420a2f2d7a761fcf5c77
-f ./.git/objects/c3/20fdff702659bd83889e945b3f3ae0d0532eed
-f ./.git/objects/c4/c8c82a102202d136e47b433f43e5190138e4e2
-f ./.git/objects/c7/cb8f4db6eff97d326c6409b3574ae40125f7a1
-f ./.git/objects/ca/4efeb82b1847f39a17e4957fb56b05957be822
-f ./.git/objects/cd/991c838dcea68f86042865bf983ec3bcb87b58
-f ./.git/objects/ce/24aafaafa764598d33ad845f667520d65d8ae3
-f ./.git/objects/ce/53601ebc9a7161fa8c8072c6f38cd2da73653c
-f ./.git/objects/cf/ab67d38da0f06966fff6a3ec57ede9837b4bb3
-f ./.git/objects/cf/da5c576f5ecd2fd484ae7f57db17b554aac376
-f ./.git/objects/d1/96164710e0e6f67ffadf3cb7cc8c1275499016
-f ./.git/objects/d4/453a00555e5c092eb2885575980ad2aee53ca8
-f ./.git/objects/d5/6e6ddc36da381f6489a91a213ad3debfc3bf7d
-f ./.git/objects/d6/37be834268dac9b12a967f004cd7759712cbfe
-f ./.git/objects/d6/6862c270e76cc63bf6e4dc25a5b679c9763631
-f ./.git/objects/d6/8d524a6448f0b7e23a53b04a692e3264551868
-f ./.git/objects/d8/c2805db02867e1505a52b724386a3a6d5ee90c
-f ./.git/objects/d9/7ef0afd4ccb298865ac9c6e27c9c03cb286426
-f ./.git/objects/da/1719a13c951271120cbd768ceab8cca4bb3f9b
-f ./.git/objects/dc/e93156e60ace4c65147fefb1f1b5b725d672fd
-f ./.git/objects/de/a8fe847e1dd2545ea351aa91907f4bbaccfda3
-f ./.git/objects/de/e59685f564d49082c686a8cf4beb4cfb2b0e7e
-f ./.git/objects/e0/04f5973d190e71f09a1d0317030cd9dae314c5
-f ./.git/objects/e2/63f7422e0d5a542edd2d37f1b89370777db8e0
-f ./.git/objects/e3/32fb6df399e8878a502d82392e4757fc8925b6
-f ./.git/objects/e3/3827ce9dfccd8a501f2cafa0fda3921c77aa65
-f ./.git/objects/e3/5bd650c8a00123f9afb36d2026ec883a7b587d
-f ./.git/objects/e6/8b5329d03859ad8e8e7e10500804b5e0275fad
-f ./.git/objects/e6/a80a1017a409af8854b01d27a4e79f86058e69
-f ./.git/objects/e7/95cca1c39d46941ec4bf072939ca4f4cfb2ef6
-f ./.git/objects/e9/69e147273a97b60194726ef89c103e3b110250
-f ./.git/objects/eb/090f2659d680e2fec5dea83301eae0df9b18d1
-f ./.git/objects/ed/e29265f3d7e108b94bb309ba75363210d36fea
-f ./.git/objects/ee/86ef953c92cb5f472605e0354be585b364e842
-f ./.git/objects/f2/35ad2c12848bf55d436daa748063b0d705bfa2
-f ./.git/objects/f4/7a6e30dc60d40b4a04fcb8a1424323682619ea
-f ./.git/objects/f4/c89d95c8d5e37d6bcca390301e3fb2196b5001
-f ./.git/objects/fd/b392cedafb4c013f0be7af63a1c049a47bb4a4
-f ./.git/objects/fe/0cdc5893493bdee5348d0345316ebe0dcf6d21
-f ./.git/objects/ff/766698b8b7200d4175063b17d1c76ba38be305
-f ./.git/refs/heads/master
-f ./.gitignore
-f ./.idea/.name
-f ./.idea/ant.xml
-f ./.idea/compiler.xml
-f ./.idea/copyright/profiles_settings.xml
-f ./.idea/encodings.xml
-f ./.idea/misc.xml
-f ./.idea/modules.xml
-f ./.idea/scopes/scope_settings.xml
-f ./.idea/uiDesigner.xml
-f ./.idea/vcs.xml
-f ./.idea/workspace.xml
-f ./.project
-f ./.settings/com.salesforce.ide.core.prefs
-f ./build.properties
-f ./build.xml
+d .
+d ./accountSharingRules
+f ./accountSharingRules/Account.sharingRules
+d ./applications
+f ./applications/EDA.app
+d ./campaignSharingRules
+f ./campaignSharingRules/Campaign.sharingRules
+d ./caseSharingRules
+f ./caseSharingRules/Case.sharingRules
+d ./classes
+f ./classes/myController.cls
+f ./classes/myController.cls-meta.xml
+d ./components
+f ./components/editMode.component
+f ./components/editMode.component-meta.xml
+d ./contactSharingRules
+f ./contactSharingRules/Contact.sharingRules
+d ./customApplicationComponents
+d ./datacategorygroups
 f ./delete_file_list.txt
-f ./demoTestCustomVF.iml
+d ./documents
+d ./documents/EDA
+f ./documents/EDA/statement_csv.txt
+f ./documents/EDA/statement_csv.txt-meta.xml
+f ./documents/EDA/statement_mt940.txt
+f ./documents/EDA/statement_mt940.txt-meta.xml
+f ./documents/EDA-meta.xml
+d ./email
+d ./email/unfiled$public
+d ./flows
+d ./groups
+d ./homePageComponents
+d ./homePageLayouts
+f ./homePageLayouts/DE Default.homePageLayout
+d ./labels
+f ./labels/CustomLabels.labels
+d ./layouts
+f ./layouts/Account-Account %28Marketing%29 Layout.layout
+f ./layouts/Account-Account %28Sales%29 Layout.layout
+f ./layouts/Account-Account %28Support%29 Layout.layout
+f ./layouts/Account-Account Layout.layout
+f ./layouts/Asset-Asset Layout.layout
+f ./layouts/Campaign-Campaign Layout.layout
+f ./layouts/CampaignMember-Campaign Member Page Layout.layout
+f ./layouts/Case-Case %28Marketing%29 Layout.layout
+f ./layouts/Case-Case %28Sales%29 Layout.layout
+f ./layouts/Case-Case %28Support%29 Layout.layout
+f ./layouts/Case-Case Layout.layout
+f ./layouts/Case-xcdyv.layout
+f ./layouts/CaseClose-Close Case Layout.layout
+f ./layouts/Contact-Contact %28Marketing%29 Layout.layout
+f ./layouts/Contact-Contact %28Sales%29 Layout.layout
+f ./layouts/Contact-Contact %28Support%29 Layout.layout
+f ./layouts/Contact-Contact Layout.layout
+f ./layouts/Contract-Contract Layout.layout
+f ./layouts/Event-Event Layout.layout
+f ./layouts/Flow__c-Flow Layout.layout
+f ./layouts/Idea-Idea Layout.layout
+f ./layouts/Lead-Lead %28Marketing%29 Layout.layout
+f ./layouts/Lead-Lead %28Sales%29 Layout.layout
+f ./layouts/Lead-Lead %28Support%29 Layout.layout
+f ./layouts/Lead-Lead Layout.layout
+f ./layouts/Opportunity-Opportunity %28Marketing%29 Layout.layout
+f ./layouts/Opportunity-Opportunity %28Sales%29 Layout.layout
+f ./layouts/Opportunity-Opportunity %28Support%29 Layout.layout
+f ./layouts/Opportunity-Opportunity Layout.layout
+f ./layouts/OpportunityLineItem-Opportunity Product Layout.layout
+f ./layouts/Process__c-Process Layout.layout
+f ./layouts/Product2-Product Layout.layout
+f ./layouts/SocialPersona-Social Persona Layout.layout
+f ./layouts/Solution-Solution Layout.layout
+f ./layouts/StatementLine__c-Bank Statement Line Layout.layout
+f ./layouts/Step__c-Chain Line Layout.layout
+f ./layouts/Task-Task Layout.layout
+f ./layouts/User-User Layout.layout
+d ./leadSharingRules
+f ./leadSharingRules/Lead.sharingRules
+d ./letterhead
+d ./objects
+f ./objects/Account.object
+f ./objects/AccountContactRole.object
+f ./objects/Activity.object
+f ./objects/Asset.object
+f ./objects/Campaign.object
+f ./objects/CampaignMember.object
+f ./objects/Case.object
+f ./objects/CaseContactRole.object
+f ./objects/Contact.object
+f ./objects/ContentVersion.object
+f ./objects/Contract.object
+f ./objects/ContractContactRole.object
+f ./objects/Event.object
+f ./objects/Flow__c.object
+f ./objects/Lead.object
+f ./objects/Opportunity.object
+f ./objects/OpportunityCompetitor.object
+f ./objects/OpportunityContactRole.object
+f ./objects/OpportunityLineItem.object
+f ./objects/PartnerRole.object
+f ./objects/Process__c.object
+f ./objects/Product2.object
+f ./objects/Site.object
+f ./objects/SocialPersona.object
+f ./objects/Solution.object
+f ./objects/StatementLine__c.object
+f ./objects/Step__c.object
+f ./objects/Task.object
+f ./objects/User.object
+d ./objectTranslations
+f ./objectTranslations/Flow__c-en_US.objectTranslation
+f ./objectTranslations/Process__c-en_US.objectTranslation
+f ./objectTranslations/StatementLine__c-en_US.objectTranslation
+f ./objectTranslations/Step__c-en_US.objectTranslation
+d ./opportunitySharingRules
+f ./opportunitySharingRules/Opportunity.sharingRules
+d ./orgsettings
 f ./package.xml
-f ./salesforce.schema
-f ./src/accountSharingRules/Account.sharingRules
-f ./src/applications/EDA.app
-f ./src/campaignSharingRules/Campaign.sharingRules
-f ./src/caseSharingRules/Case.sharingRules
-f ./src/classes/myController.cls
-f ./src/classes/myController.cls-meta.xml
-f ./src/components/editMode.component
-f ./src/components/editMode.component-meta.xml
-f ./src/contactSharingRules/Contact.sharingRules
-f ./src/documents/EDA/statement_csv.txt
-f ./src/documents/EDA/statement_csv.txt-meta.xml
-f ./src/documents/EDA/statement_mt940.txt
-f ./src/documents/EDA/statement_mt940.txt-meta.xml
-f ./src/documents/EDA-meta.xml
-f ./src/homePageLayouts/DE Default.homePageLayout
-f ./src/labels/CustomLabels.labels
-f ./src/layouts/Account-Account %28Marketing%29 Layout.layout
-f ./src/layouts/Account-Account %28Sales%29 Layout.layout
-f ./src/layouts/Account-Account %28Support%29 Layout.layout
-f ./src/layouts/Account-Account Layout.layout
-f ./src/layouts/Asset-Asset Layout.layout
-f ./src/layouts/Campaign-Campaign Layout.layout
-f ./src/layouts/CampaignMember-Campaign Member Page Layout.layout
-f ./src/layouts/Case-Case %28Marketing%29 Layout.layout
-f ./src/layouts/Case-Case %28Sales%29 Layout.layout
-f ./src/layouts/Case-Case %28Support%29 Layout.layout
-f ./src/layouts/Case-Case Layout.layout
-f ./src/layouts/Case-xcdyv.layout
-f ./src/layouts/CaseClose-Close Case Layout.layout
-f ./src/layouts/Contact-Contact %28Marketing%29 Layout.layout
-f ./src/layouts/Contact-Contact %28Sales%29 Layout.layout
-f ./src/layouts/Contact-Contact %28Support%29 Layout.layout
-f ./src/layouts/Contact-Contact Layout.layout
-f ./src/layouts/Contract-Contract Layout.layout
-f ./src/layouts/Event-Event Layout.layout
-f ./src/layouts/Flow__c-Flow Layout.layout
-f ./src/layouts/Idea-Idea Layout.layout
-f ./src/layouts/Lead-Lead %28Marketing%29 Layout.layout
-f ./src/layouts/Lead-Lead %28Sales%29 Layout.layout
-f ./src/layouts/Lead-Lead %28Support%29 Layout.layout
-f ./src/layouts/Lead-Lead Layout.layout
-f ./src/layouts/Opportunity-Opportunity %28Marketing%29 Layout.layout
-f ./src/layouts/Opportunity-Opportunity %28Sales%29 Layout.layout
-f ./src/layouts/Opportunity-Opportunity %28Support%29 Layout.layout
-f ./src/layouts/Opportunity-Opportunity Layout.layout
-f ./src/layouts/OpportunityLineItem-Opportunity Product Layout.layout
-f ./src/layouts/Process__c-Process Layout.layout
-f ./src/layouts/Product2-Product Layout.layout
-f ./src/layouts/SocialPersona-Social Persona Layout.layout
-f ./src/layouts/Solution-Solution Layout.layout
-f ./src/layouts/StatementLine__c-Bank Statement Line Layout.layout
-f ./src/layouts/Step__c-Chain Line Layout.layout
-f ./src/layouts/Task-Task Layout.layout
-f ./src/layouts/User-User Layout.layout
-f ./src/leadSharingRules/Lead.sharingRules
-f ./src/objects/Account.object
-f ./src/objects/AccountContactRole.object
-f ./src/objects/Activity.object
-f ./src/objects/Asset.object
-f ./src/objects/Campaign.object
-f ./src/objects/CampaignMember.object
-f ./src/objects/Case.object
-f ./src/objects/CaseContactRole.object
-f ./src/objects/Contact.object
-f ./src/objects/ContentVersion.object
-f ./src/objects/Contract.object
-f ./src/objects/ContractContactRole.object
-f ./src/objects/Event.object
-f ./src/objects/Flow__c.object
-f ./src/objects/Lead.object
-f ./src/objects/Opportunity.object
-f ./src/objects/OpportunityCompetitor.object
-f ./src/objects/OpportunityContactRole.object
-f ./src/objects/OpportunityLineItem.object
-f ./src/objects/PartnerRole.object
-f ./src/objects/Process__c.object
-f ./src/objects/Product2.object
-f ./src/objects/Site.object
-f ./src/objects/SocialPersona.object
-f ./src/objects/Solution.object
-f ./src/objects/StatementLine__c.object
-f ./src/objects/Step__c.object
-f ./src/objects/Task.object
-f ./src/objects/User.object
-f ./src/objectTranslations/Flow__c-en_US.objectTranslation
-f ./src/objectTranslations/Process__c-en_US.objectTranslation
-f ./src/objectTranslations/StatementLine__c-en_US.objectTranslation
-f ./src/objectTranslations/Step__c-en_US.objectTranslation
-f ./src/opportunitySharingRules/Opportunity.sharingRules
-f ./src/package.xml
-f ./src/pages/setEmps.page
-f ./src/pages/setEmps.page-meta.xml
-f ./src/profiles/Admin.profile
-f ./src/profiles/Chatter External User.profile
-f ./src/profiles/Chatter Free User.profile
-f ./src/profiles/Chatter Moderator User.profile
-f ./src/profiles/ContractManager.profile
-f ./src/profiles/Custom%3A Marketing Profile.profile
-f ./src/profiles/Custom%3A Sales Profile.profile
-f ./src/profiles/Custom%3A Support Profile.profile
-f ./src/profiles/Customer Portal Manager Custom.profile
-f ./src/profiles/Customer Portal Manager Standard.profile
-f ./src/profiles/Force%2Ecom - Free User.profile
-f ./src/profiles/Gold Partner User.profile
-f ./src/profiles/HighVolumePortal.profile
-f ./src/profiles/MarketingProfile.profile
-f ./src/profiles/PlatformPortal.profile
-f ./src/profiles/ReadOnly.profile
-f ./src/profiles/Silver Partner User.profile
-f ./src/profiles/SolutionManager.profile
-f ./src/profiles/Standard.profile
-f ./src/profiles/StandardAul.profile
-f ./src/remoteSiteSettings/ApexDevNet.remoteSite
-f ./src/roles/CEO.role
-f ./src/roles/CFO.role
-f ./src/roles/ChannelSalesTeam.role
-f ./src/roles/COO.role
-f ./src/roles/CustomerSupportInternational.role
-f ./src/roles/CustomerSupportNorthAmerica.role
-f ./src/roles/DirectorChannelSales.role
-f ./src/roles/DirectorDirectSales.role
-f ./src/roles/EasternSalesTeam.role
-f ./src/roles/InstallationRepairServices.role
-f ./src/roles/MarketingTeam.role
-f ./src/roles/SVPCustomerServiceSupport.role
-f ./src/roles/SVPHumanResources.role
-f ./src/roles/SVPSalesMarketing.role
-f ./src/roles/VPInternationalSales.role
-f ./src/roles/VPMarketing.role
-f ./src/roles/VPNorthAmericanSales.role
-f ./src/roles/WesternSalesTeam.role
-f ./src/staticresources/DynaTree.resource
-f ./src/staticresources/DynaTree.resource-meta.xml
-f ./src/tabs/Flow__c.tab
-f ./src/tabs/Injector.tab
-f ./src/tabs/Process__c.tab
-f ./src/tabs/Setup.tab
-f ./src/tabs/StatementLine__c.tab
-f ./src/test_subset_md_package.xml
-f ./src/weblinks/PostInstall.weblink
-f ./src/workflows/Account.workflow
-f ./src/workflows/Asset.workflow
-f ./src/workflows/Campaign.workflow
-f ./src/workflows/CampaignMember.workflow
-f ./src/workflows/Case.workflow
-f ./src/workflows/Contact.workflow
-f ./src/workflows/Contract.workflow
-f ./src/workflows/Event.workflow
-f ./src/workflows/Flow__c.workflow
-f ./src/workflows/Idea.workflow
-f ./src/workflows/Lead.workflow
-f ./src/workflows/Opportunity.workflow
-f ./src/workflows/OpportunityLineItem.workflow
-f ./src/workflows/Organization.workflow
-f ./src/workflows/Process__c.workflow
-f ./src/workflows/Product2.workflow
-f ./src/workflows/Site.workflow
-f ./src/workflows/SocialPersona.workflow
-f ./src/workflows/Solution.workflow
-f ./src/workflows/StatementLine__c.workflow
-f ./src/workflows/Step__c.workflow
-f ./src/workflows/Task.workflow
-f ./src/workflows/UserLicense.workflow
+d ./pages
+f ./pages/setEmps.page
+f ./pages/setEmps.page-meta.xml
+d ./permissionsets
+d ./profiles
+f ./profiles/Admin.profile
+f ./profiles/Chatter External User.profile
+f ./profiles/Chatter Free User.profile
+f ./profiles/Chatter Moderator User.profile
+f ./profiles/ContractManager.profile
+f ./profiles/Custom%3A Marketing Profile.profile
+f ./profiles/Custom%3A Sales Profile.profile
+f ./profiles/Custom%3A Support Profile.profile
+f ./profiles/Customer Portal Manager Custom.profile
+f ./profiles/Customer Portal Manager Standard.profile
+f ./profiles/Force%2Ecom - Free User.profile
+f ./profiles/Gold Partner User.profile
+f ./profiles/HighVolumePortal.profile
+f ./profiles/MarketingProfile.profile
+f ./profiles/PlatformPortal.profile
+f ./profiles/ReadOnly.profile
+f ./profiles/Silver Partner User.profile
+f ./profiles/SolutionManager.profile
+f ./profiles/Standard.profile
+f ./profiles/StandardAul.profile
+d ./queues
+d ./remoteSiteSettings
+f ./remoteSiteSettings/ApexDevNet.remoteSite
+d ./reports
+d ./reportTypes
+d ./roles
+f ./roles/CEO.role
+f ./roles/CFO.role
+f ./roles/ChannelSalesTeam.role
+f ./roles/COO.role
+f ./roles/CustomerSupportInternational.role
+f ./roles/CustomerSupportNorthAmerica.role
+f ./roles/DirectorChannelSales.role
+f ./roles/DirectorDirectSales.role
+f ./roles/EasternSalesTeam.role
+f ./roles/InstallationRepairServices.role
+f ./roles/MarketingTeam.role
+f ./roles/SVPCustomerServiceSupport.role
+f ./roles/SVPHumanResources.role
+f ./roles/SVPSalesMarketing.role
+f ./roles/VPInternationalSales.role
+f ./roles/VPMarketing.role
+f ./roles/VPNorthAmericanSales.role
+f ./roles/WesternSalesTeam.role
+d ./scontrols
+d ./sites
+d ./staticresources
+f ./staticresources/DynaTree.resource
+f ./staticresources/DynaTree.resource-meta.xml
+d ./tabs
+f ./tabs/Flow__c.tab
+f ./tabs/Injector.tab
+f ./tabs/Process__c.tab
+f ./tabs/Setup.tab
+f ./tabs/StatementLine__c.tab
 f ./test_subset_md_package.xml
+d ./triggers
+d ./weblinks
+f ./weblinks/PostInstall.weblink
+d ./workflows
+f ./workflows/Account.workflow
+f ./workflows/Asset.workflow
+f ./workflows/Campaign.workflow
+f ./workflows/CampaignMember.workflow
+f ./workflows/Case.workflow
+f ./workflows/Contact.workflow
+f ./workflows/Contract.workflow
+f ./workflows/Event.workflow
+f ./workflows/Flow__c.workflow
+f ./workflows/Idea.workflow
+f ./workflows/Lead.workflow
+f ./workflows/Opportunity.workflow
+f ./workflows/OpportunityLineItem.workflow
+f ./workflows/Organization.workflow
+f ./workflows/Process__c.workflow
+f ./workflows/Product2.workflow
+f ./workflows/Site.workflow
+f ./workflows/SocialPersona.workflow
+f ./workflows/Solution.workflow
+f ./workflows/StatementLine__c.workflow
+f ./workflows/Step__c.workflow
+f ./workflows/Task.workflow
+f ./workflows/UserLicense.workflow
