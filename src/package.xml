@@ -10,22 +10,6 @@
     </types>
     <types>
         <members>*</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexComponent</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexPage</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTrigger</name>
-    </types>
-    <types>
-        <members>*</members>
         <name>CampaignCriteriaBasedSharingRule</name>
     </types>
     <types>
@@ -75,7 +59,6 @@
         <members>Contract</members>
         <members>ContractContactRole</members>
         <members>Event</members>
-        <members>Idea</members>
         <members>Lead</members>
         <members>Opportunity</members>
         <members>OpportunityCompetitor</members>
@@ -115,23 +98,6 @@
         <members>EDA/statement_csv.txt</members>
         <members>EDA/statement_mt940.txt</members>
         <name>Document</name>
-    </types>
-    <types>
-        <members>unfiled$public</members>
-        <members>unfiled$public/MarketingProductInquiryResponse</members>
-        <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
-        <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
-        <members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
-        <members>unfiled$public/SalesNewCustomerEmail</members>
-        <members>unfiled$public/SupportCaseAssignmentNotification</members>
-        <members>unfiled$public/SupportCaseCreatedPhoneInquiries</members>
-        <members>unfiled$public/SupportCaseCreatedWebInquiries</members>
-        <members>unfiled$public/SupportCaseResponse</members>
-        <members>unfiled$public/SupportEscalatedCaseNotification</members>
-        <members>unfiled$public/SupportEscalatedCaseReassignment</members>
-        <members>unfiled$public/SupportSelfServiceNewLoginandPassword</members>
-        <members>unfiled$public/SupportSelfServiceResetPassword</members>
-        <name>EmailTemplate</name>
     </types>
     <types>
         <members>*</members>
@@ -188,10 +154,6 @@
     <types>
         <members>ApexDevNet</members>
         <name>RemoteSiteSetting</name>
-    </types>
-    <types>
-        <members>unfiled$public</members>
-        <name>Report</name>
     </types>
     <types>
         <members>*</members>
