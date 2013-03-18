@@ -20,17 +20,16 @@
     <property environment="env"/>
 
     <!-- Test out deploy and retrieve verbs for package 'mypkg' -->
-    <target name="deployToSalesforce">
-        <copy includeemptydirs="true" todir="${sf.deploy.root}">
-            <fileset includes="${sf.deploy.src}"></fileset>
+    <target  name="deployToSalesforce">
+        <copy verbose="${sf.deploy.verbose}" todir="${sf.deploy.root}">
+            <fileset dir="${sf.deploy.src}">
+            </fileset>
         </copy>
-        <copy todir="${sf.deploy.root}">
-           <fileset file="${sf.deploy.packagefile}">
-           </fileset>
+        <copy verbose="${sf.deploy.verbose}" todir="${sf.deploy.root}">
+            <fileset file="${sf.deploy.packagefile}"/>
             <globmapper from="${sf.deploy.packagefile}" to="package.xml"/>
         </copy>
-        <delete casesensitive="true" dir="${sf.deploy.root}" verbose="${sf.deploy.verbose}"  includeemptydirs="true">
-             <fileset excludesfile="${sf.deploy.excludefiles}"></fileset>
+        <delete excludes="${sf.deploy.excludefiles}" casesensitive="true" dir="${sf.deploy.src}" verbose="${sf.deploy.verbose}"  includeemptydirs="true">
         </delete>
         <sf:deploy username="${sf.deploy.username}" password="${sf.deploy.password}" serverurl="${sf.deploy.serverurl}" deployRoot="${sf.deploy.root}"/>
     </target>
