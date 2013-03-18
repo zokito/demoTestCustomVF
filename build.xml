@@ -22,10 +22,12 @@
     <!-- Test out deploy and retrieve verbs for package 'mypkg' -->
     <target name="deployToSalesforce">
         <copy includeemptydirs="true" todir="${sf.deploy.root}">
-            <fileset includesfile="${sf.deploy.src}"></fileset>
+            <fileset includes="${sf.deploy.src}"></fileset>
         </copy>
-        <copy>
-
+        <copy todir="${sf.deploy.root}">
+           <fileset file="${sf.deploy.packagefile}">
+           </fileset>
+            <globmapper from="${sf.deploy.packagefile}" to="package.xml"/>
         </copy>
         <delete casesensitive="true" dir="${sf.deploy.root}" verbose="${sf.deploy.verbose}"  includeemptydirs="true">
              <fileset excludesfile="${sf.deploy.excludefiles}"></fileset>
