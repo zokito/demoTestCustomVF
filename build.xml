@@ -19,18 +19,31 @@
 
     <property environment="env"/>
 
+    <target name="clean" description="Clean output directories.">
+        <!-- Must not fail on error because it fails if directories don't exist.
+             Is there really no better way to do this? -->
+        <delete includeEmptyDirs="true" failonerror="false">
+            <fileset dir="${sf.deploy.root}" />
+        </delete>
+    </target>
+
     <!-- Test out deploy and retrieve verbs for package 'mypkg' -->
     <target  name="deployToSalesforce">
         <copy verbose="${sf.deploy.verbose}" todir="${sf.deploy.root}">
             <fileset dir="${sf.deploy.src}">
             </fileset>
         </copy>
+        <delete  verbose="${sf.deploy.verbose}"  includeemptydirs="false" file="${sf.deploy.root}\package.xml">
+
+        </delete>
         <copy verbose="${sf.deploy.verbose}" todir="${sf.deploy.root}">
             <fileset file="${sf.deploy.packagefile}"/>
-            <globmapper from="${sf.deploy.packagefile}" to="package.xml"/>
+            <globmapper from="*" to="package.xml"/>
         </copy>
-        <delete excludes="${sf.deploy.excludefiles}" casesensitive="true" dir="${sf.deploy.src}" verbose="${sf.deploy.verbose}"  includeemptydirs="true">
-        </delete>
+     <delete  verbose="${sf.deploy.verbose}">
+         <fileset dir="${sf.deploy.root}" excludesfile="${sf.deploy.excludefiles}">
+         </fileset>
+      </delete>
         <sf:deploy username="${sf.deploy.username}" password="${sf.deploy.password}" serverurl="${sf.deploy.serverurl}" deployRoot="${sf.deploy.root}"/>
     </target>
 
