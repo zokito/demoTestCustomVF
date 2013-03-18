@@ -1,6 +1,7 @@
-./classes/myController.cls
-./deploy/classes/myController.cls-meta.xml
-./deploy/components/editMode.component
-./deploy/components/editMode.component-meta.xml
-./deploy/pages/setEmps.page
-./deploy/pages/setEmps.page-meta.xml
+package.xml
+classes/myController.cls
+classes/myController.cls-meta.xml
+components/editMode.component
+components/editMode.component-meta.xml
+pages/setEmps.page
+pages/setEmps.page-meta.xml
