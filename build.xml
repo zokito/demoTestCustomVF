@@ -23,7 +23,7 @@
             <fileset dir="${sf.deploy.root}"/>
         </delete>
     </target>
-    <!-- Test out deploy and retrieve verbs for package 'mypkg' -->
+    <!-- Test out deploy and retrieve verbs for package 'mypkg' this is test-->
     <target name="deployToSalesforce">
         <copy verbose="${sf.deploy.verbose}" todir="${sf.deploy.root}">
             <fileset dir="${sf.deploy.src}">
