@@ -5,3 +5,5 @@ pages/setEmps.page
 pages/setEmps.page-meta.xml
 documents/EDA/statement_csv.txt
 documents/EDA/statement_mt940.txt
+documents/EDA/statement_csv.txt-meta.xml
+documents/EDA/statement_mt940.txt-meta.xml
