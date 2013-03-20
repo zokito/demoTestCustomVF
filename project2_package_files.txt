@@ -7,3 +7,4 @@ documents/EDA/statement_csv.txt
 documents/EDA/statement_mt940.txt
 documents/EDA/statement_csv.txt-meta.xml
 documents/EDA/statement_mt940.txt-meta.xml
+documents/EDA-meta.xml
