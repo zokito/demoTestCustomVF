@@ -5,3 +5,5 @@ components/editMode.component
 components/editMode.component-meta.xml
 pages/setEmps.page
 pages/setEmps.page-meta.xml
+src/objects/Account.object
+src/objects/AccountContactRole.object

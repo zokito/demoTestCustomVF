@@ -12,5 +12,10 @@
         <members>setEmps</members>
         <name>ApexPage</name>
     </types>
+    <types>
+        <members>Account</members>
+        <members>AccountContactRole</members>
+        <name>CustomObject</name>
+    </types>
     <version>26.0</version>
 </Package>
