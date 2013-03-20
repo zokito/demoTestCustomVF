@@ -1,7 +1,7 @@
 package.xml
 classes/myController.cls
 classes/myController.cls-meta.xml
-components/editMode.component
-components/editMode.component-meta.xml
 pages/setEmps.page
 pages/setEmps.page-meta.xml
+documents/EDA/statement_csv.txt
+documents/EDA/statement_mt940.txt

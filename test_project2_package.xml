@@ -5,12 +5,14 @@
         <name>ApexClass</name>
     </types>
     <types>
-        <members>editMode</members>
-        <name>ApexComponent</name>
-    </types>
-    <types>
         <members>setEmps</members>
         <name>ApexPage</name>
+    </types>
+    <types>
+        <members>EDA</members>
+        <members>EDA/statement_csv.txt</members>
+        <members>EDA/statement_mt940.txt</members>
+        <name>Document</name>
     </types>
     <version>26.0</version>
 </Package>
